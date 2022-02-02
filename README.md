@@ -5,7 +5,9 @@ Lint YAML files. Simply and that's all.
 ## Usage
 
 ```yaml
-- uses: damfle/github-action-yamllint@v1.0.1
+- uses: damfle/github-action-yamllint@v1.0.2
+  with:
+    file_or_dir: ./
 ```
 
 ## Parameters

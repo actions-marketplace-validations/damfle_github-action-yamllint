@@ -1,5 +1,5 @@
 ---
-name: yamllint
+name: damfle-github-action-yamllint
 author: damfle
 description: Lint YAML files
 

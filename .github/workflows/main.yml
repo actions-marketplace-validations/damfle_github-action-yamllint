@@ -1,0 +1,12 @@
+---
+on: [push]  # yamllint disable-line rule:truthy
+
+jobs:
+  lintception:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./
+        with:
+          file_or_dir: ./
+          strict: true
